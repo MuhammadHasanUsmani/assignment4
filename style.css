@@ -1,0 +1,141 @@
+
+#navtext{
+    text-align: center !important;
+    /* color: black !important; */
+    /* border: 1px solid black; */
+
+}
+#navtext span{
+    font-size: 34px !important;
+    color: white;
+    text-shadow: 4px 4px 4px #1D010D;
+    /* background-color: rgba(0, 0, 0, 0.2); */
+}
+/* #navtext{
+    background-color: rgba(0, 0, 0, 0.2);
+} */
+.upbody{
+    background-image: url('images/background.jpg') !important;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.upbody1{
+    background-image: url('images/background\ 1.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+/* .nav-item{
+    color: white !important
+} */
+/* .navbar-nav ul{
+    color: white !important
+} */
+span a{
+    color: white !important;
+}
+li a:hover{
+    color: #00ACC1 !important;
+    background-color:#FFEA00;
+    border-radius: 30px;
+}
+.active:active{
+    color: #00ACC1 !important ;
+    background-color:#FFEA00;
+    border-radius: 30px;
+}
+.active{
+    color: #00ACC1 !important ;
+    background-color:#FFEA00;
+    border-radius: 30px;
+}
+li{
+    padding: 0px 10px 0px 10px;
+    /* font-weight: bold; */
+    font-size: 16px;
+    text-transform: uppercase;
+}
+#maincon{
+    color: #880E4F;
+    text-transform: uppercase;
+    /* border: 1px solid black; */
+    text-shadow: 2px 2px 4px black;    
+}
+#maincon1{
+    /* color: #1D010D; */
+    color: white;
+}
+#mainhed{
+    font-size: 60px;
+/* border: 1px solid black; */
+}
+#abbo{
+    border-radius: 250px;
+}
+.intro{
+    color: #880E4F;
+    text-transform: uppercase;
+}
+.intro1{
+    color: white;
+    text-transform: capitalize;
+}
+.upbody2{
+    background-image: url('images/background3.jpg');
+}
+.pro{
+    color: white;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 600px) {
+    /* #maincon
+    #mainabu */
+    body {
+      background-color: #9E9E9E !important;
+        }
+    }  
+    
+/* @media screen and (max-width: 600px) {
+    #maincon {
+        text-shadow: 2px 2px 5px #880E4F !important;
+          }
+    #mainabu {
+      text-shadow: 2px 2px 5px #880E4F !important;
+        }
+    }   */
+
+    #maincon {
+        text-shadow: 2px 2px 5px #880E4F !important;
+          }
+    #mainabu {
+      text-shadow: 2px 2px 5px #880E4F !important;
+        }
+        .upbody3{
+            background-color: #880E4F;
+        }
+        /* #check{
+            border: 1px solid black;
+        } */
+        @media screen and (max-width: 600px) {
+            #check{
+                width: 83.33% !important;
+            }
+        }
+        @media screen and (max-width: 900px) {
+            #check{
+                width: 83.33% !important;
+            }
+        }
+        .fa fa-mobile{
+            font-size: 80px;
+        }
+        .list li{
+            color: white;
+            text-decoration: none;
+            text-transform: capitalize !important;
+        }
+        .list ul{
+            text-decoration: none;
+        }
